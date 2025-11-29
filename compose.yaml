@@ -1,0 +1,8 @@
+services:
+  cisc327cmpe327f25main:
+    image: cisc327cmpe327f25main
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
